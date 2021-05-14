@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #c00040;
+    --primary-dark-color: #80002a;
+    --primary-light-color: #e0004a;
+    --primary-lighter-color: #f20050;
+    --primary-lightest-color: #ff0054;
+}
+
+@media (prefers-color-scheme: dark) {
+    #projectlogo img {
+        content:url("../images/dark.png");
+    }
+}
