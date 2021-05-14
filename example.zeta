@@ -7,6 +7,8 @@
  * This is an example of a Javadoc-style comment.
  */
 
+import io
+
 main (args : string []) begin
-   
+  io.out ("Hello, World!")
 end
